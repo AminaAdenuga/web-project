@@ -1,0 +1,150 @@
+/* stylesheet */
+* {
+    box-sizing: border-box;
+}
+body{
+    background-color:black;
+    color: white;
+}
+li{
+    
+    list-style-type:none;
+    display:inline;
+    float:right;
+    padding:1rem;
+}
+h1{
+    clear:both;
+}
+body{
+    padding: 0;
+    margin: 0;
+}
+.login{
+    border: none;
+    background-color:purple;
+    font-family: sans-serif;
+    color: gray;
+    text-decoration: none;
+    border-radius: 5px;
+    padding:0.5rem  1rem;
+    font-size: 0.9rem;
+}
+.login:hover{
+    background-color: pink;
+    text-decoration: none;
+    color:white;
+}
+.begin{
+    background-color: rgb(31, 9, 17);
+   margin:9rem 0rem;  
+}
+.box{
+    margin-top: 1rem;
+    background-image:url(../mountain.jpg);
+    background-size: 100% 100%;
+    padding:6rem 3rem;
+    font-weight: bold;
+    color: black;
+}
+.spen{
+    font-size: large;
+    margin-top:-1.2rem;
+    font-weight: bold;
+    color:black;
+}
+.center{
+    text-align: center;
+    margin-top: 5rem;
+    font-size: 1.2rem;
+    color:gray;
+    
+}
+img{
+    border: 1px ridge gray;
+    border-radius: 150%;
+    width: 100px;
+}
+.container{
+    display: grid;
+    height: 400px;
+    align-content: center;
+    grid-template-columns: auto auto auto;
+    grid-gap: 10px;
+    padding: 0px;
+    margin: -4rem 4rem 0rem 4rem ;
+}
+.container > div {
+    background-color: rgb(4, 28, 49);
+    text-align: center;
+    padding: 20px 0px;
+    font-size: 10px;
+    color: gray; 
+    margin:2rem 0;
+    border-radius: 20px;
+    border: 5px ridge rgb(4, 28, 49);
+
+}
+.downer{
+    float:right;
+}
+.contain{
+    clear: both;
+}
+section > img{
+    width: 200px;
+    height: 250px;
+    border-radius: 100%;
+    margin-left:2rem;
+
+
+}
+aside{
+    
+    width: 70%;   
+    float: rigt;
+    margin-right: 2rem;
+    font-size: 14px;
+    padding-top: 3rem;
+
+
+}
+.tell{
+    font-style: italic;
+
+}
+.too{
+    font-weight: bolder;
+    
+}
+h2{
+    text-align: center;
+}
+div  .love{
+    margin:2rem 4rem 1rem 4rem;
+    border-radius: 20px;
+}
+fieldset{
+    width:30%;
+    align-content:center;
+    margin: 2rem;
+    border-radius: 20px;
+}
+.myfooter {background-color: white;
+    color: black;
+    text-align:center ;
+    padding-top: 1rem;
+    padding-bottom: 0.5rem;
+}
+.bord{
+    display: inline;
+    background-color: palevioletred;
+    margin: 2rem;
+    padding: 1rem;
+}
+#submit{
+    padding-left: 3rem;
+    padding-right: 3rem;
+    background-color: palevioletred;
+
+}
